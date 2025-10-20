@@ -1,13 +1,11 @@
-# TinyTroupe + FastAPI (POC mínima)
+# TinyTroupe + FastAPI 
 
-POC mínima para validar a biblioteca [TinyTroupe](https://github.com/microsoft/TinyTroupe) com FastAPI.
+POC para validar a biblioteca [TinyTroupe](https://github.com/microsoft/TinyTroupe) com FastAPI.
 
 Objetivo:
 - Criar personas (manual e via TinyPersonFactory)
 - Rodar uma simulação curta com TinyWorld
 - Healthcheck
-
-Sem Docker, sem frontend, sem testes automáticos.
 
 ## Estrutura
 
@@ -146,8 +144,3 @@ Dica: Para obter 3–6 linhas de transcript, use `steps=3` ou `4`.
 
 - O `.gitignore` já ignora `.env`. Não comite chaves.
 - Se uma chave foi exposta, rotacione-a no provedor.
-
-## Escopo e Regras
-
-- Sem Docker, sem frontend, sem testes, sem camadas extras, sem caching avançado.
-- Objetivo único: provar TinyPerson, TinyPersonFactory e TinyWorld funcionando e retornando algo.
